@@ -1,0 +1,10 @@
+{
+    "name": "root/service-worker",
+    "authors": [
+        {
+            "name": "dnllromao",
+            "email": "dnllromao@gmail.com"
+        }
+    ],
+    "require": {}
+}
