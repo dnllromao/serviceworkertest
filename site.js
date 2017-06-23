@@ -24,7 +24,6 @@ self.addEventListener("install", function(event) {
     /* The caches built-in is a promise-based API that helps you cache responses,
        as well as finding and deleting them.
     */
-    console.log(caches);
     caches
       /* You can open a cache by name, and this method returns a promise. We use
          a versioned cache name here so that we can remove old cache entries in
