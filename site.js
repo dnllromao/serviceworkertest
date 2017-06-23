@@ -4,7 +4,7 @@ if ('serviceWorker' in navigator) {
 
   console.log('CLIENT: service worker registration in progress.');
 
-  navigator.serviceWorker.register('https://cdn.css-tricks.com/service-worker.js')
+  navigator.serviceWorker.register('https://serviceworker.herokuapp.com/site.js')
   	.then(function() {
 	    console.log('CLIENT: service worker registration complete.');
 	  }, function() {
