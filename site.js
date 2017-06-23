@@ -32,6 +32,7 @@ self.addEventListener("install", function(event) {
       .open(version + 'fundamentals')
       .then(function(cache) {
       	console.log(cache);
+      	console.log('reste reveillée');
         /* After the cache is opened, we can fill it with the offline fundamentals.
            The method below will add all resources we've indicated to the cache,
            after making HTTP requests for each of them.
